@@ -1,13 +1,5 @@
-# Sample Hardhat Project
+# FundMe Project With Hardhat
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
+This project uses the Hardhat framework to deploy and interact with the FundMe smart contract.
 
-Try running some of the following tasks:
-
-```shell
-npx hardhat help
-npx hardhat test
-GAS_REPORT=true npx hardhat test
-npx hardhat node
-npx hardhat run scripts/deploy.js
-```
+The FundMe smart contract is designed as a crowd funding contract that lets funders fund it, while only letting the owner withdraw those funds.
