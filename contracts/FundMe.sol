@@ -11,10 +11,13 @@ error FundMe__NotOwner();
 
 // Interfaces, Libraries, Contracts
 
-/// @title A contract for crowd funding
-/// @author Christopher Hardy
-/// @notice This contract is to demoa sample funding contract
-/// @dev This implements price feeds as our library
+/**
+ * @title A contract for crowd funding
+ * @author 0xChristopher
+ * @notice This contract is to demoa sample funding contract
+ * @dev This implements price feeds as our library
+ */
+
 contract FundMe {
     // Type Declarations
     using PriceConverter for uint256;
